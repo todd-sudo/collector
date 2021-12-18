@@ -1,9 +1,9 @@
 import logging
 
-from core.db import SessionLocal
+from app.core.db import SessionLocal
 from settings import settings
-from user.services import crud_user
-from user.schemas import UserCreate
+from app.user.services import crud_user
+from app.user.schemas import UserCreate
 
 
 logging.basicConfig(level=logging.INFO)
